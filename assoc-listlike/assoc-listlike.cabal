@@ -1,5 +1,4 @@
 cabal-version: 3.0
-
 name: assoc-listlike
 version: 0.1.0.1
 category: Data
@@ -68,4 +67,4 @@ test-suite test-assoc-listlike
 
   build-depends:
       assoc-listlike
-    , hedgehog ^>= 1.0 || ^>= 1.1
+    , hedgehog
